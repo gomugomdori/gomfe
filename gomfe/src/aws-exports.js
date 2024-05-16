@@ -8,7 +8,7 @@ const awsmobile = {
   aws_user_pools_web_client_id: "5cqbpk4t3vleof6gk956tneldt",
   oauth: {
     domain: "gomlogin.auth.ap-northeast-2.amazoncognito.com",
-    scope: ["email", "openid", "profile"], // Google 로그인에 필요한 스코프 , "aws.cognito.signin.user.admin"
+    scope: ["email", "openid", "profile", "aws.cognito.signin.user.admin"], // Google 로그인에 필요한 스코프
     redirectSignIn: "https://www.gomugom.site/",
     redirectSignOut: "https://www.gomugom.site/",
     responseType: "code",
